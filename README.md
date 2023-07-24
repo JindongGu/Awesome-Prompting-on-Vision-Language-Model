@@ -15,7 +15,7 @@ Prompt engineering is a technique that involves augmenting a large pre-trained m
 
 This repo lists relevant papers summarized in our survey: 
 
-**A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models.** *Jindong Gu, Zhen Han, Shuo Chen, Ahmad Beirami, Bailan He, Gengyuan Zhang, Ruotong Liao, Yao Qin, Volker Tresp, Philip Torr*. Preprint 2023. [[pdf]](https://scholar.google.com/citations?user=mj3ff80AAAAJ&hl=en)
+**A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models.** *Jindong Gu, Zhen Han, Shuo Chen, Ahmad Beirami, Bailan He, Gengyuan Zhang, Ruotong Liao, Yao Qin, Volker Tresp, Philip Torr*. Preprint 2023. [[pdf]]()
 
 If you find our paper and repo helpful to your research, please cite the following paper:
 ```latex
@@ -39,17 +39,29 @@ There are two main types of fusion module approaches based on the integration of
 
 
 
-| Title                                                        | Venue   | Year | Code if available                                            | Comment                |
-| :----------------------------------------------------------- | ------- | ---- | ------------------------------------------------------------ | ---------------------- |
-| [Unifying Vision-and-Language Tasks via Text Generation](https://arxiv.org/abs/2102.02779) | ICML    | 2021 | [Github](https://github.com/j-min/VL-T5)                     | Encoder-decoder fusion |
-| [SimVLM: Simple Visual Language Model Pretraining with Weak Supervision](https://arxiv.org/abs/2108.10904) | ICLR    | 2022 | [Github](https://github.com/YulongBonjour/SimVLM)            | Encoder-decoder fusion |
-| [OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework](https://arxiv.org/abs/2202.03052) | ICML    | 2022 | [Github](https://github.com/OFA-Sys/OFA)                     | Encoder-decoder fusion |
-| [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794) | ICLR    | 2023 | --                                                           | Encoder-decoder fusion |
-| [Multimodal Few-Shot Learning with Frozen Language Models](https://arxiv.org/abs/2106.13884) | NeurIPS | 2021 | [Page](https://fh295.github.io/frozen.html)                  | Decoder-only fusion    |
-| [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | NeurIPS | 2022 | [Github](https://github.com/mlfoundations/open_flamingo)     | Decoder-only fusion    |
-| [MAGMA -- Multimodal Augmentation of Generative Models through Adapter-based Finetuning](https://aclanthology.org/2022.findings-emnlp.179/) | EMNLP   | 2022 | [Github](https://github.com/Aleph-Alpha/magma)               | Decoder-only fusion    |
-| [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) | ICML    | 2023 | [Github](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) | Decoder-only fusion    |
-|                                                              |         |      |                                                              |                        |
+| Title                                                        | Venue       | Year | Code if available                                            | Comment                                              |
+| :----------------------------------------------------------- | ----------- | ---- | ------------------------------------------------------------ | ---------------------------------------------------- |
+| [Unifying Vision-and-Language Tasks via Text Generation](https://arxiv.org/abs/2102.02779) | ICML        | 2021 | [Github](https://github.com/j-min/VL-T5)                     | Encoder-decoder fusion; Text prefixes as prompt      |
+| [SimVLM: Simple Visual Language Model Pretraining with Weak Supervision](https://arxiv.org/abs/2108.10904) | ICLR        | 2022 | [Github](https://github.com/YulongBonjour/SimVLM)            | Encoder-decoder fusion; Text prefixes as prompt      |
+| [OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework](https://arxiv.org/abs/2202.03052) | ICML        | 2022 | [Github](https://github.com/OFA-Sys/OFA)                     | Encoder-decoder fusion; Text prefixes as prompt      |
+| [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794) | ICLR        | 2023 | ---                                                          | Encoder-decoder fusion; Instruction prompt           |
+| [Multimodal Few-Shot Learning with Frozen Language Models](https://arxiv.org/abs/2106.13884) | NeurIPS     | 2021 | [Page](https://fh295.github.io/frozen.html)                  | Decoder-only fusion; Image conditional prefix tuning |
+| [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | NeurIPS     | 2022 | [Github](https://github.com/mlfoundations/open_flamingo)     | Decoder-only fusion; Text prompts;                   |
+| [MAGMA -- Multimodal Augmentation of Generative Models through Adapter-based Finetuning](https://aclanthology.org/2022.findings-emnlp.179/) | EMNLP       | 2022 | [Github](https://github.com/Aleph-Alpha/magma)               | Decoder-only fusion; Image conditional prefix tuning |
+| [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) | ICML        | 2023 | [Github](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) | Decoder-only fusion; Image conditional prefix tuning |
+| [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) | OpenAI Blog | 2019 | [Github](https://github.com/openai/gpt-2)                    | Task instruction prompt                              |
+| [The Turking Test: Can Language Models Understand Instructions?](https://arxiv.org/abs/2010.11982) | arXiv       | 2020 | ---                                                          | Task instruction prompt                              |
+| [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) | NeurIPS     | 2020 | ---                                                          | In-context learning                                  |
+| [Learning To Retrieve Prompts for In-Context Learning](https://arxiv.org/abs/2112.08633) | NAACL-HLT   | 2022 | [Github](https://github.com/OhadRubin/EPR)                   | Retrieval-based prompting                            |
+| [Unified Demonstration Retriever for In-Context Learning](https://arxiv.org/abs/2305.04320) | ACL         | 2023 | [Github](https://github.com/KaiLv69/UDR)                     | Retrieval-based prompting                            |
+| [Compositional Exemplars for In-context Learning](https://arxiv.org/abs/2302.05698) | ICML        | 2023 | [Github](https://github.com/HKUNLP/icl-ceil)                 | Retrieval-based prompting                            |
+| [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) | NeurIPS     | 2022 | ---                                                          | Chain-of-thought prompting                           |
+| [Automatic Chain of Thought Prompting in Large Language Models]() | ICLR        | 2023 | [Github](https://github.com/amazon-research/auto-cot)        | Chain-of-thought prompting                           |
+| [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691) | EMNLP       | 2021 | ---                                                          | Prompt tuning                                        |
+| [Learning How to Ask: Querying LMs with Mixtures of Soft Prompts](https://arxiv.org/abs/2104.06599) | NAACL-HLT   | 2021 | [Github](https://github.com/hiaoxui/soft-prompts)            | Prompt tuning                                        |
+| [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/abs/2101.00190) | ACL         | 2021 | [Github](https://github.com/XiangLi1999/PrefixTuning)        | Prefix tuning                                        |
+| [Prompt Tuning for Generative Multimodal Pretrained Models](https://arxiv.org/abs/2208.02532) | ACL         | 2023 | [Github](https://github.com/OFA-Sys/OFA)                     | Prompt tuning on OFA                                 |
+| [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/abs/2302.14045) | arXiv       | 2023 | [Github](https://github.com/microsoft/unilm)                 | Textual instruction prompts                          |
 
 ## Prompting Model in Image-Text Matching (*e.g.* on CLIP)
 
@@ -75,13 +87,16 @@ Depending on the target of prompting, existing methods can be classified into th
 | [Unleashing the Power of Visual Prompting At the Pixel Level](https://arxiv.org/abs/2212.10556) | arXiv   | 2022 | [Github](https://github.com/UCSC-VLAA/EVP)                   | Visual patch-wise prompts        |
 | [Diversity-Aware Meta Visual Prompting](https://arxiv.org/abs/2303.08138) | CVPR    | 2023 | [Github](https://github.com/shikiw/DAM-VP)                   | Visual patch-wise prompts        |
 | [CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models](https://arxiv.org/abs/2109.11797) | arXiv   | 2022 | [Github](https://github.com/thunlp/CPT)                      | Visual annotation prompts        |
-| [What does CLIP know about a red circle? Visual prompt engineering for VLMs](https://arxiv.org/abs/2304.06712) | arXiv   | 2023 | -                                                            | Visual annotation prompts        |
+| [What does CLIP know about a red circle? Visual prompt engineering for VLMs](https://arxiv.org/abs/2304.06712) | arXiv   | 2023 | ---                                                          | Visual annotation prompts        |
 | [Visual Prompting via Image Inpainting](https://arxiv.org/abs/2209.00647) | NeurIPS | 2022 | [Github](https://github.com/amirbar/visual_prompting)        | Visual annotation prompts        |
 | [Unified Vision and Language Prompt Learning](https://arxiv.org/abs/2210.07225) | arXiv   | 2023 | [Github](https://github.com/yuhangzang/UPT)                  | Coupled unified prompting        |
 | [Multitask Vision-Language Prompt Tuning](https://arxiv.org/abs/2211.11720) | arXiv   | 2022 | [Github](https://github.com/sIncerass/MVLPT)                 | Decoupled unified prompting      |
 | [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117) | CVPR    | 2023 | [Github](https://github.com/muzairkhattak/multimodal-prompt-learning) | Decoupled unified prompting      |
 | [Understanding Zero-shot Adversarial Robustness for Large-Scale Models](https://openreview.net/forum?id=P4bXCawRi5J) | ICLR    | 2023 | [Code](https://www.catalyzex.com/paper/arxiv:2212.07016/code) | Adversarial robustness of prompt |
 | [Visual Prompting for Adversarial Robustness](https://arxiv.org/abs/2210.06284) | ICASSP  | 2023 | [Github](https://github.com/Phoveran/vp-for-adversarial-robustness) | Adversarial robustness of prompt |
+| [Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) | NeurIPS | 2021 | [Github](https://github.com/salesforce/ALBEF/)               | Image-Text Matching Model        |
+| [Unsupervised Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2204.03649) | arXiv   | 2022 | [Github](https://github.com/tonyhuang2022/UPL)               | Unspervised learnable prompts    |
+| TBD application & ethics related papers                      |         |      |                                                              |                                  |
 
 
 
@@ -95,8 +110,8 @@ Depending on the target of prompting, existing methods can be classified into th
 | [An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion](https://arxiv.org/abs/2208.01618) | ICLR             | 2023 | [Github](https://textual-inversion.github.io/)               | Complex control of synthesis results |
 | [DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242) | CVPR             | 2023 | [Github](https://github.com/google/dreambooth)               | Complex control of synthesis results |
 | [Multi-Concept Customization of Text-to-Image Diffusion](https://arxiv.org/abs/2212.04488) | CVPR             | 2023 | [Github](https://github.com/adobe-research/custom-diffusion) | Complex control of synthesis results |
-| [Prompt-to-Prompt Image Editing with Cross Attention Control](https://arxiv.org/abs/2208.01626) | arXiv            | 2022 | --                                                           | Complex control of synthesis results |
-|                                                              |                  |      |                                                              |                                      |
+| [Prompt-to-Prompt Image Editing with Cross Attention Control](https://arxiv.org/abs/2208.01626) | arXiv            | 2022 | ---                                                          | Complex control of synthesis results |
+| TBD applications & ethics papers                             |                  |      |                                                              |                                      |
 |                                                              |                  |      |                                                              |                                      |
 |                                                              |                  |      |                                                              |                                      |
 |                                                              |                  |      |                                                              |                                      |
@@ -106,7 +121,9 @@ Depending on the target of prompting, existing methods can be classified into th
 
 
 
-## Prompting VLMs vs. Uni-modal Models 
+## Prompting VLMs vs. Uni-modal Models
+
+TBD 
 
 
 
