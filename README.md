@@ -1,4 +1,7 @@
+
+
 # Awesome Prompting on Vision-Language Models
+
 <img src="./assets/pvlm-mindmap.png" width="100%" height="100%">
 
 ## # :nerd_face: What is Prompting on Vision-Language Models?
@@ -28,25 +31,25 @@ If you find our paper and repo helpful to your research, please cite the followi
 
 ### Prompting Model in Multimodal-to-Text Generation (*e.g.* on Flamingo)
 
-Prompting methods can be divided into **two main categories**  (Fig. 2) based on the readability of the templates: **hard prompt** and **soft prompt**. Hard prompt encompasses four subcategories: *task instruction, in-context learning,* *retrieval-based prompting, and chain-of-thought prompting*. Soft prompts are classified into two strategies: *prompt tuning* and *prefix token tuning*, based on whether they internally add new tokens to the model's architecture or simply append them to the input. this study primarily concentrates on prompt methods that avoid altering the base model.
+There are two main types of fusion module approaches based on the integration of visual and textual modalities: **encoder-decoder as a multi-modal fusion module** and **decoder-only as a multi-modal fusion module**. Prompting methods can be divided into **two main categories**  (Fig. 2) based on the readability of the templates: **hard prompt** and **soft prompt**. Hard prompt encompasses four subcategories: *task instruction, in-context learning,* *retrieval-based prompting, and chain-of-thought prompting*. Soft prompts are classified into two strategies: *prompt tuning* and *prefix token tuning*, based on whether they internally add new tokens to the model's architecture or simply append them to the input. this study primarily concentrates on prompt methods that avoid altering the base model.
 
 <img src="./assets/chapt3_prompting_method.png">
 
-<p align="center">  <i>Fig. 2 : Classification of prompting methods in multimodal-to-text generation.</i> 		 </p>
+<p align="center">  <i>Fig. 2 : Classification of prompting methods.</i> 		 </p>
 
 
 
-| Title | Venue | Year | Code if available | Comment |
-| :---- | ----- | ---- | ----------------- | ------- |
-|       |       |      |                   |         |
-|       |       |      |                   |         |
-|       |       |      |                   |         |
-|       |       |      |                   |         |
-|       |       |      |                   |         |
-|       |       |      |                   |         |
-|       |       |      |                   |         |
-|       |       |      |                   |         |
-|       |       |      |                   |         |
+| Title                                                        | Venue   | Year | Code if available                                            | Comment                |
+| :----------------------------------------------------------- | ------- | ---- | ------------------------------------------------------------ | ---------------------- |
+| [Unifying Vision-and-Language Tasks via Text Generation](https://arxiv.org/abs/2102.02779) | ICML    | 2021 | [Github](https://github.com/j-min/VL-T5)                     | Encoder-decoder fusion |
+| [SimVLM: Simple Visual Language Model Pretraining with Weak Supervision](https://arxiv.org/abs/2108.10904) | ICLR    | 2022 | [Github](https://github.com/YulongBonjour/SimVLM)            | Encoder-decoder fusion |
+| [OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework](https://arxiv.org/abs/2202.03052) | ICML    | 2022 | [Github](https://github.com/OFA-Sys/OFA)                     | Encoder-decoder fusion |
+| [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794) | ICLR    | 2023 | --                                                           | Encoder-decoder fusion |
+| [Multimodal Few-Shot Learning with Frozen Language Models](https://arxiv.org/abs/2106.13884) | NeurIPS | 2021 | [Page](https://fh295.github.io/frozen.html)                  | Decoder-only fusion    |
+| [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | NeurIPS | 2022 | [Github](https://github.com/mlfoundations/open_flamingo)     | Decoder-only fusion    |
+| [MAGMA -- Multimodal Augmentation of Generative Models through Adapter-based Finetuning](https://aclanthology.org/2022.findings-emnlp.179/) | EMNLP   | 2022 | [Github](https://github.com/Aleph-Alpha/magma)               | Decoder-only fusion    |
+| [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) | ICML    | 2023 | [Github](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) | Decoder-only fusion    |
+|                                                              |         |      |                                                              |                        |
 
 ## Prompting Model in Image-Text Matching (*e.g.* on CLIP)
 
