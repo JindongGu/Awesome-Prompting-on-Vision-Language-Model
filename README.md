@@ -1,33 +1,64 @@
-# To Update
+# Awesome Prompting on Vision-Language Models
+<img src="./assets/pvlm-mindmap.png" width="100%" height="100%">
 
-### What is Prompting on Vision-Language Models?
-
-
+## # :nerd_face: What is Prompting on Vision-Language Models?
+Prompt engineering is a technique that involves augmenting a large pre-trained model with task-specific hints, known as prompts, to adapt the model to new tasks. This paper aims to provide a comprehensive survey of cutting-edge research in prompt engineering on three types of vision-language models: multimodal-to-text generation models (*e.g.*, Flamingo), image-text matching models (*e.g.*, CLIP), and text-to-image generation models (*e.g.*, Stable Diffusion).
 
 ### Reference
-- This repo lists relevant papers summarized in our survey paper.
-  [[pdf]](https://scholar.google.com/citations?user=mj3ff80AAAAJ&hl=en)
-  - Jindong Gu, Zhen Han, Shuo Chen, Ahmad Beirami, Bailan He, Gengyuan Zhang, Ruotong Liao, Yao Qin, Volker Tresp, Philip Torr
 
-### Papers
+**A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models.** *Jindong Gu, Zhen Han, Shuo Chen, Ahmad Beirami, Bailan He, Gengyuan Zhang, Ruotong Liao, Yao Qin, Volker Tresp, Philip Torr*. Preprint 2023. [[pdf]](https://scholar.google.com/citations?user=mj3ff80AAAAJ&hl=en)
 
-  
-#### Prompting Model in Multimodal-Text Generation (e.g. on Flamingo)
-- Task-generalizable Adversarial Attack based on Perceptual Metric.
-  [[pdf]](https://arxiv.org/pdf/1811.09020.pdf)<br />
-  Muzammal Naseer, Salman H. Khan, Shafin Rahman, Fatih Porikli, arxiv, 2018
+If you find our paper and repo helpful to your research, please cite the following paper:
+```
+@article{gu2023survey,
+  title={A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models},
+  author={Gu, Jindong and Han, Zhen and Chen, Shuo, and Beirami, Ahmad and He, Bailan and Zhang, Gengyuan and Liao, Ruotong and Qin, Yao and Tresp, Volker and Torr, Philip}
+  journal={TBD},
+  year={2023}
+}
+```
 
-- Delving into Transferable Adversarial Examples and Black-box Attacks.
-  [[pdf]](https://openreview.net/pdf?id=Sys6GJqxl)
-  [[code]](https://github.com/sunblaze-ucb/transferability-advdnn-pub)<br />
-  Yanpei Liu, Xinyun Chen, Chang Liu, Dawn Song, **ICLR**, 2015
-
-#### Prompting Model in Image-Text Matching (e.g. on CLIP)
-
-#### Prompting Model in Text-Image Generation (e.g. on Stable Diffusion)
+## # :bookmark_tabs: Table of Contents
 
 
-### Contact
+
+
+
+## # :paperclips: Awesome Papers
+
+### Prompting Model in Multimodal-to-Text Generation (*e.g.* on Flamingo)
+
+| Title | Venue | Date | Code | Tag  |
+| ----- | ----- | ---- | ---- | ---- |
+|       |       |      |      |      |
+|       |       |      |      |      |
+|       |       |      |      |      |
+
+
+
+## Prompting Model in Image-Text Matching (*e.g.* on CLIP)
+
+| Title | Venue | Date | Code | Tag  |
+| ----- | ----- | ---- | ---- | ---- |
+|       |       |      |      |      |
+|       |       |      |      |      |
+|       |       |      |      |      |
+
+
+
+## Prompting Model in Text-to-Image Generation (*e.g.* on Stable Diffusion)
+
+| Title | Venue | Date | Code | Tag  |
+| ----- | ----- | ---- | ---- | ---- |
+|       |       |      |      |      |
+|       |       |      |      |      |
+|       |       |      |      |      |
+
+
+
+
+
+## # :mailbox_with_mail: Contact 
 
 Please contact us (jindong.gu@outlook.com, chenshuo.cs@outlook.com) if 
 - you would like to add your paper in this repo,
