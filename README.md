@@ -6,7 +6,7 @@ Prompt engineering is a technique that involves augmenting a large pre-trained m
 
 <img src="./assets/3-models.png">
 
-<p style="text-align:center"> <i>Fig. 1 : Three main types of vision-language models focused on this work.</i> 		 </p>
+<p align="center"> <i>Fig. 1 : Three main types of vision-language models focused on this work.</i> 		 </p>
 
 ### Reference
 
@@ -30,7 +30,7 @@ If you find our paper and repo helpful to your research, please cite the followi
 
 <img src="./assets/chapt3_prompting_method.png">
 
-<p style="text-align:center"> <i>Fig. 2 : Classification of prompting methods in multimodal-to-text generation.</ii> 		 </p>
+<p align="center">  <i>Fig. 2 : Classification of prompting methods in multimodal-to-text generation.</i> 		 </p>
 
 
 
@@ -44,7 +44,7 @@ If you find our paper and repo helpful to your research, please cite the followi
 
 <img src="./assets/chapt4_prompting_method.png">
 
-<p style="text-align:center"> <i>Fig. 2 : Classification of prompting methods on Image-Text Matching VLMs.</ii> 		 </p>
+<p align="center">  <i>Fig. 2 : Classification of prompting methods on Image-Text Matching VLMs.</i> 		 </p>
 
 
 
