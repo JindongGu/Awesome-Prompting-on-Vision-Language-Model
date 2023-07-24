@@ -34,11 +34,12 @@ If you find our paper and repo helpful to your research, please cite the followi
 
 
 
-| Title | Venue | Date | Code | Tag  |
-| ----- | ----- | ---- | ---- | ---- |
-|       |       |      |      |      |
-|       |       |      |      |      |
-|       |       |      |      |      |
+| Title                                                        | Venue       | Year | Code if available                         | Comment             |
+| ------------------------------------------------------------ | ----------- | ---- | ----------------------------------------- | ------------------- |
+| [Language models are unsupervised multitask learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) | OpenAI Blog | 2019 | [Github](https://github.com/openai/gpt-2) | Task Instruction    |
+| [The Turking Test: Can Language Models Understand Instructions?](https://arxiv.org/abs/2010.11982) | ArXiv       | 2020 |                                           | Task Instruction    |
+| [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) | NeurIPS     | 2020 |                                           | In-context Learning |
+|                                                              |             |      |                                           |                     |
 
 ## Prompting Model in Image-Text Matching (*e.g.* on CLIP)
 
