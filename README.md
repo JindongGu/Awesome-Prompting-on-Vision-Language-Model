@@ -63,7 +63,7 @@ There are two main types of fusion module approaches based on the integration of
 | [Prompt Tuning for Generative Multimodal Pretrained Models](https://arxiv.org/abs/2208.02532) | ACL         | 2023 | [Github](https://github.com/OFA-Sys/OFA)                     | Prompt tuning on OFA                                 |
 | [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/abs/2302.14045) | arXiv       | 2023 | [Github](https://github.com/microsoft/unilm)                 | Textual instruction prompts                          |
 | [Benchmarking Robustness of Adaptation Methods on Pre-trained Vision-Language Models](https://arxiv.org/abs/2306.02080) | arXiv       | 2023 | [Page](https://adarobustness.github.io/)                     | Robustness of prompt tuning on VLMs                  |
-| [Towards Robust Prompts on Vision-Language Models](https://arxiv.org/abs/2304.08479) | arXiv       | 2023 |                                                              | Robustness of prompt tuning on VLMs                  |
+| [Towards Robust Prompts on Vision-Language Models](https://arxiv.org/abs/2304.08479) | arXiv       | 2023 | ---                                                          | Robustness of prompt tuning on VLMs                  |
 
 
 
