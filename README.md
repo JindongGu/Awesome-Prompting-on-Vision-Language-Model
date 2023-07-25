@@ -62,7 +62,10 @@ There are two main types of fusion module approaches based on the integration of
 | [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/abs/2101.00190) | ACL         | 2021 | [Github](https://github.com/XiangLi1999/PrefixTuning)        | Prefix tuning                                        |
 | [Prompt Tuning for Generative Multimodal Pretrained Models](https://arxiv.org/abs/2208.02532) | ACL         | 2023 | [Github](https://github.com/OFA-Sys/OFA)                     | Prompt tuning on OFA                                 |
 | [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/abs/2302.14045) | arXiv       | 2023 | [Github](https://github.com/microsoft/unilm)                 | Textual instruction prompts                          |
-| TBD applications & ethics                                    |             |      |                                                              |                                                      |
+
+### Applications & Responsible AI
+
+
 
 ## Prompting Model in Image-Text Matching (*e.g.* on CLIP)
 
@@ -74,29 +77,35 @@ Depending on the target of prompting, existing methods can be classified into th
 
 
 
+| Title                                                        | Venue   | Year | Code if available                                            | Comment                                            |
+| ------------------------------------------------------------ | ------- | ---- | ------------------------------------------------------------ | -------------------------------------------------- |
+| [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) | ICML    | 2021 | [Github](https://github.com/OpenAI/CLIP)                     | Hard text prompts; Prompt for Image classification |
+| [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=e8PVEkSa4Fq) | NeurIPS | 2022 | [Github](https://github.com/azshue/TPT)                      | Soft text prompts                                  |
+| [Learning to Prompt for Vision-Language Models](https://arxiv.org/abs/2109.01134) | IJCV    | 2022 | [Github](https://github.com/KaiyangZhou/CoOp)                | Soft text prompts                                  |
+| [Prompting Visual-Language Models for Efficient Video Understanding](https://arxiv.org/abs/2112.04478) | ECCV    | 2022 | [Github](https://github.com/ju-chen/Efficient-Prompt)        | Soft text prompts                                  |
+| [Multitask Vision-Language Prompt Tuning](https://arxiv.org/abs/2211.11720) | arXiv   | 2022 | [Github](https://github.com/sIncerass/MVLPT)                 | Soft text prompts                                  |
+| [Conditional Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2203.05557) | CVPR    | 2022 | [Github](https://github.com/KaiyangZhou/CoOp)                | Soft text prompts                                  |
+| [Visual Prompt Tuning](https://arxiv.org/abs/2203.12119)     | ECCV    | 2022 | [Github](https://github.com/KMnP/vpt)                        | Visual patch-wise prompts                          |
+| [Exploring Visual Prompts for Adapting Large-Scale Models](https://arxiv.org/abs/2203.17274) | arXiv   | 2022 | [Github](https://github.com/hjbahng/visual_prompting)        | Visual patch-wise prompts                          |
+| [Multitask Vision-Language Prompt Tuning](https://arxiv.org/abs/2211.11720) | arXiv   | 2022 | [Github](https://github.com/sIncerass/MVLPT)                 | Visual patch-wise prompts                          |
+| [Unleashing the Power of Visual Prompting At the Pixel Level](https://arxiv.org/abs/2212.10556) | arXiv   | 2022 | [Github](https://github.com/UCSC-VLAA/EVP)                   | Visual patch-wise prompts                          |
+| [Diversity-Aware Meta Visual Prompting](https://arxiv.org/abs/2303.08138) | CVPR    | 2023 | [Github](https://github.com/shikiw/DAM-VP)                   | Visual patch-wise prompts                          |
+| [CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models](https://arxiv.org/abs/2109.11797) | arXiv   | 2022 | [Github](https://github.com/thunlp/CPT)                      | Visual annotation prompts                          |
+| [What does CLIP know about a red circle? Visual prompt engineering for VLMs](https://arxiv.org/abs/2304.06712) | arXiv   | 2023 | ---                                                          | Visual annotation prompts                          |
+| [Visual Prompting via Image Inpainting](https://arxiv.org/abs/2209.00647) | NeurIPS | 2022 | [Github](https://github.com/amirbar/visual_prompting)        | Visual annotation prompts                          |
+| [Unified Vision and Language Prompt Learning](https://arxiv.org/abs/2210.07225) | arXiv   | 2023 | [Github](https://github.com/yuhangzang/UPT)                  | Coupled unified prompting                          |
+| [Multitask Vision-Language Prompt Tuning](https://arxiv.org/abs/2211.11720) | arXiv   | 2022 | [Github](https://github.com/sIncerass/MVLPT)                 | Decoupled unified prompting                        |
+| [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117) | CVPR    | 2023 | [Github](https://github.com/muzairkhattak/multimodal-prompt-learning) | Decoupled unified prompting                        |
+| [Understanding Zero-shot Adversarial Robustness for Large-Scale Models](https://openreview.net/forum?id=P4bXCawRi5J) | ICLR    | 2023 | [Code](https://www.catalyzex.com/paper/arxiv:2212.07016/code) | Adversarial robustness of prompt                   |
+| [Visual Prompting for Adversarial Robustness](https://arxiv.org/abs/2210.06284) | ICASSP  | 2023 | [Github](https://github.com/Phoveran/vp-for-adversarial-robustness) | Adversarial robustness of prompt                   |
+| [Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) | NeurIPS | 2021 | [Github](https://github.com/salesforce/ALBEF/)               | Image-Text Matching Model                          |
+| [Unsupervised Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2204.03649) | arXiv   | 2022 | [Github](https://github.com/tonyhuang2022/UPL)               | Unspervised learnable prompts                      |
+| [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511) | NeurIPS | 2022 | [Github](https://github.com/azshue/TPT)                      | Learnable prompt                                   |
+
+### Applications & Responsible AI
+
 | Title                                                        | Venue         | Year | Code if available                                            | Comment                                                      |
 | ------------------------------------------------------------ | ------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) | ICML          | 2021 | [Github](https://github.com/OpenAI/CLIP)                     | Hard text prompts; Prompt for Image classification           |
-| [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://openreview.net/forum?id=e8PVEkSa4Fq) | NeurIPS       | 2022 | [Github](https://github.com/azshue/TPT)                      | Soft text prompts                                            |
-| [Learning to Prompt for Vision-Language Models](https://arxiv.org/abs/2109.01134) | IJCV          | 2022 | [Github](https://github.com/KaiyangZhou/CoOp)                | Soft text prompts                                            |
-| [Prompting Visual-Language Models for Efficient Video Understanding](https://arxiv.org/abs/2112.04478) | ECCV          | 2022 | [Github](https://github.com/ju-chen/Efficient-Prompt)        | Soft text prompts                                            |
-| [Multitask Vision-Language Prompt Tuning](https://arxiv.org/abs/2211.11720) | arXiv         | 2022 | [Github](https://github.com/sIncerass/MVLPT)                 | Soft text prompts                                            |
-| [Conditional Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2203.05557) | CVPR          | 2022 | [Github](https://github.com/KaiyangZhou/CoOp)                | Soft text prompts                                            |
-| [Visual Prompt Tuning](https://arxiv.org/abs/2203.12119)     | ECCV          | 2022 | [Github](https://github.com/KMnP/vpt)                        | Visual patch-wise prompts                                    |
-| [Exploring Visual Prompts for Adapting Large-Scale Models](https://arxiv.org/abs/2203.17274) | arXiv         | 2022 | [Github](https://github.com/hjbahng/visual_prompting)        | Visual patch-wise prompts                                    |
-| [Multitask Vision-Language Prompt Tuning](https://arxiv.org/abs/2211.11720) | arXiv         | 2022 | [Github](https://github.com/sIncerass/MVLPT)                 | Visual patch-wise prompts                                    |
-| [Unleashing the Power of Visual Prompting At the Pixel Level](https://arxiv.org/abs/2212.10556) | arXiv         | 2022 | [Github](https://github.com/UCSC-VLAA/EVP)                   | Visual patch-wise prompts                                    |
-| [Diversity-Aware Meta Visual Prompting](https://arxiv.org/abs/2303.08138) | CVPR          | 2023 | [Github](https://github.com/shikiw/DAM-VP)                   | Visual patch-wise prompts                                    |
-| [CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models](https://arxiv.org/abs/2109.11797) | arXiv         | 2022 | [Github](https://github.com/thunlp/CPT)                      | Visual annotation prompts                                    |
-| [What does CLIP know about a red circle? Visual prompt engineering for VLMs](https://arxiv.org/abs/2304.06712) | arXiv         | 2023 | ---                                                          | Visual annotation prompts                                    |
-| [Visual Prompting via Image Inpainting](https://arxiv.org/abs/2209.00647) | NeurIPS       | 2022 | [Github](https://github.com/amirbar/visual_prompting)        | Visual annotation prompts                                    |
-| [Unified Vision and Language Prompt Learning](https://arxiv.org/abs/2210.07225) | arXiv         | 2023 | [Github](https://github.com/yuhangzang/UPT)                  | Coupled unified prompting                                    |
-| [Multitask Vision-Language Prompt Tuning](https://arxiv.org/abs/2211.11720) | arXiv         | 2022 | [Github](https://github.com/sIncerass/MVLPT)                 | Decoupled unified prompting                                  |
-| [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117) | CVPR          | 2023 | [Github](https://github.com/muzairkhattak/multimodal-prompt-learning) | Decoupled unified prompting                                  |
-| [Understanding Zero-shot Adversarial Robustness for Large-Scale Models](https://openreview.net/forum?id=P4bXCawRi5J) | ICLR          | 2023 | [Code](https://www.catalyzex.com/paper/arxiv:2212.07016/code) | Adversarial robustness of prompt                             |
-| [Visual Prompting for Adversarial Robustness](https://arxiv.org/abs/2210.06284) | ICASSP        | 2023 | [Github](https://github.com/Phoveran/vp-for-adversarial-robustness) | Adversarial robustness of prompt                             |
-| [Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) | NeurIPS       | 2021 | [Github](https://github.com/salesforce/ALBEF/)               | Image-Text Matching Model                                    |
-| [Unsupervised Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2204.03649) | arXiv         | 2022 | [Github](https://github.com/tonyhuang2022/UPL)               | Unspervised learnable prompts                                |
 | [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511) | NeurIPS       | 2022 | [Github](https://github.com/azshue/TPT)                      | Learnable prompt; Prompts for image classification           |
 | [LPT: Long-tailed Prompt Tuning for Image Classification](https://openreview.net/forum?id=8pOVAeo8ie) | ICLR          | 2023 | [Github](https://github.com/DongSky/LPT)                     | Prompts for long-tailed image classification                 |
 | [Texts as Images in Prompt Tuning for Multi-Label Image Recognition](https://arxiv.org/abs/2211.12739) | CVPR          | 2023 | [Github](https://github.com/guozix/TaI-DPT)                  | Prompts for multi-label image classification and detection   |
@@ -126,6 +135,18 @@ Depending on the target of prompting, existing methods can be classified into th
 
 
 ## Prompting Model in Text-to-Image Generation (*e.g.* on Stable Diffusion)
+
+### Text-to-Image Generation Overview 
+
+| Title                                                        | Venue   | Year | Code if available                                    | Comment                              |
+| ------------------------------------------------------------ | ------- | ---- | ---------------------------------------------------- | ------------------------------------ |
+| [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233) | NeurIPS | 2021 | [Github](https://github.com/openai/guided-diffusion) | Diffusion models on image generation |
+|                                                              |         |      |                                                      |                                      |
+|                                                              |         |      |                                                      |                                      |
+
+
+
+### Prompting Methods 
 
 | Title                                                        | Venue            | Year | Code if available                                            | Comment                              |
 | ------------------------------------------------------------ | ---------------- | ---- | ------------------------------------------------------------ | ------------------------------------ |
