@@ -15,14 +15,14 @@ Prompt engineering is a technique that involves augmenting a large pre-trained m
 
 This repo lists relevant papers summarized in our survey: 
 
-**A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models.** *Jindong Gu, Zhen Han, Shuo Chen, Ahmad Beirami, Bailan He, Gengyuan Zhang, Ruotong Liao, Yao Qin, Volker Tresp, Philip Torr*. Preprint 2023. [[pdf]]()
+**A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models.** *Jindong Gu, Zhen Han, Shuo Chen, Ahmad Beirami, Bailan He, Gengyuan Zhang, Ruotong Liao, Yao Qin, Volker Tresp, Philip Torr*. Preprint 2023. [[pdf]](https://arxiv.org/abs/2307.12980)
 
 If you find our paper and repo helpful to your research, please cite the following paper:
 ```latex
 @article{gu2023survey,
   title={A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models},
   author={Gu, Jindong and Han, Zhen and Chen, Shuo, and Beirami, Ahmad and He, Bailan and Zhang, Gengyuan and Liao, Ruotong and Qin, Yao and Tresp, Volker and Torr, Philip}
-  journal={TBD},
+  journal={arXiv preprint arXiv:2307.12980},
   year={2023}
 }
 ```
@@ -136,40 +136,41 @@ Depending on the target of prompting, existing methods can be classified into th
 
 ## Prompting Model in Text-to-Image Generation (*e.g.* on Stable Diffusion)
 
-### Text-to-Image Generation Overview 
-
-| Title                                                        | Venue   | Year | Code if available                                    | Comment                              |
-| ------------------------------------------------------------ | ------- | ---- | ---------------------------------------------------- | ------------------------------------ |
-| [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233) | NeurIPS | 2021 | [Github](https://github.com/openai/guided-diffusion) | Diffusion models on image generation |
-|                                                              |         |      |                                                      |                                      |
-|                                                              |         |      |                                                      |                                      |
-
-
-
-### Prompting Methods 
-
-| Title                                                        | Venue            | Year | Code if available                                            | Comment                              |
-| ------------------------------------------------------------ | ---------------- | ---- | ------------------------------------------------------------ | ------------------------------------ |
-| [Investigating Prompt Engineering in Diffusion Models](https://arxiv.org/abs/2211.15462) | NeurIPS Workshop | 2022 | ---                                                          | Semantic prompt design               |
-| [DiffuMask: Synthesizing Images with Pixel-level Annotations for Semantic Segmentation Using Diffusion Models](https://arxiv.org/abs/2303.11681) | arXiv            | 2023 | [Github](https://github.com/weijiawu/DiffuMask)              | Diversify generation with prompt     |
-| [Is synthetic data from generative models ready for image recognition?](https://arxiv.org/abs/2210.07574) | ICLR             | 2023 | [Github](https://github.com/CVMI-Lab/SyntheticData)          | Diversify generation with prompt     |
-| [An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion](https://arxiv.org/abs/2208.01618) | ICLR             | 2023 | [Github](https://textual-inversion.github.io/)               | Complex control of synthesis results |
-| [DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242) | CVPR             | 2023 | [Github](https://github.com/google/dreambooth)               | Complex control of synthesis results |
-| [Multi-Concept Customization of Text-to-Image Diffusion](https://arxiv.org/abs/2212.04488) | CVPR             | 2023 | [Github](https://github.com/adobe-research/custom-diffusion) | Complex control of synthesis results |
-| [Prompt-to-Prompt Image Editing with Cross Attention Control](https://arxiv.org/abs/2208.01626) | arXiv            | 2022 | ---                                                          | Complex control of synthesis results |
-| TBD applications & ethics papers                             |                  |      |                                                              |                                      |
-|                                                              |                  |      |                                                              |                                      |
-|                                                              |                  |      |                                                              |                                      |
-|                                                              |                  |      |                                                              |                                      |
-|                                                              |                  |      |                                                              |                                      |
-|                                                              |                  |      |                                                              |                                      |
-|                                                              |                  |      |                                                              |                                      |
-
-
-
-## Prompting VLMs vs. Uni-modal Models
-
-TBD 
+| Title                                                        | Venue            | Year | Code if available                                            | Comment                                          |
+| ------------------------------------------------------------ | ---------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------ |
+| [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233) | NeurIPS          | 2021 | [Github](https://github.com/openai/guided-diffusion)         | Diffusion models on image generation             |
+| [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) | NeurIPS          | 2020 | [Github](https://github.com/hojonathanho/diffusion)          | Diffusion models on image generation             |
+| [Investigating Prompt Engineering in Diffusion Models](https://arxiv.org/abs/2211.15462) | NeurIPS Workshop | 2022 | ---                                                          | Semantic prompt design                           |
+| [DiffuMask: Synthesizing Images with Pixel-level Annotations for Semantic Segmentation Using Diffusion Models](https://arxiv.org/abs/2303.11681) | arXiv            | 2023 | [Github](https://github.com/weijiawu/DiffuMask)              | Diversify generation with prompt                 |
+| [Is synthetic data from generative models ready for image recognition?](https://arxiv.org/abs/2210.07574) | ICLR             | 2023 | [Github](https://github.com/CVMI-Lab/SyntheticData)          | Diversify generation with prompt                 |
+| [An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion](https://arxiv.org/abs/2208.01618) | ICLR             | 2023 | [Github](https://textual-inversion.github.io/)               | Complex control of synthesis results via prompts |
+| [DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation](https://arxiv.org/abs/2208.12242) | CVPR             | 2023 | [Github](https://github.com/google/dreambooth)               | Complex control of synthesis results via prompts |
+| [Multi-Concept Customization of Text-to-Image Diffusion](https://arxiv.org/abs/2212.04488) | CVPR             | 2023 | [Github](https://github.com/adobe-research/custom-diffusion) | Complex control of synthesis results via prompts |
+| [Prompt-to-Prompt Image Editing with Cross Attention Control](https://arxiv.org/abs/2208.01626) | arXiv            | 2022 | ---                                                          | Complex control of synthesis results via prompts |
+| [Training-Free Structured Diffusion Guidance for Compositional Text-to-Image Synthesis](https://arxiv.org/abs/2212.05032) | ICLR             | 2023 | [Github](https://github.com/shunk031/training-free-structured-diffusion-guidance) | Controllable text-to-image generation            |
+| [Diffusion Self-Guidance for Controllable Image Generation](https://arxiv.org/abs/2306.00986) | arXiv            | 2023 | [Page](https://dave.ml/selfguidance/)                        | Controllable text-to-image generation            |
+| [Imagic: Text-Based Real Image Editing with Diffusion Models](https://arxiv.org/abs/2210.09276) | CVPR             | 2023 | [Github](https://imagic-editing.github.io/)                  | Controllable text-to-image generation            |
+| [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/abs/2302.05543) | arXiv            | 2023 | [Github](https://github.com/lllyasviel/ControlNet)           | Controllable text-to-image generation            |
+| [Prompt-to-Prompt Image Editing with Cross Attention Control](https://arxiv.org/abs/2208.01626) | arXiv            | 2022 | [Github](https://github.com/google/prompt-to-prompt)         | Complex control of synthesis results via prompts |
+| [DiffuMask: Synthesizing Images with Pixel-level Annotations for Semantic Segmentation Using Diffusion Models](https://arxiv.org/abs/2303.11681) | arXix            | 2023 | [Github](https://github.com/weijiawu/DiffuMask)              | Prompts for synthetic data generation            |
+| [ImaginaryNet: Learning Object Detectors without Real Images and Annotations](https://openreview.net/forum?id=9MbhFHqrti9) | ICLR             | 2023 | [Github](https://github.com/kodenii/ImaginaryNet)            | Prompts for synthetic data generation            |
+| [Is synthetic data from generative models ready for image recognition?](https://arxiv.org/abs/2210.07574) | ICLR             | 2023 | [Github](https://github.com/CVMI-Lab/SyntheticData)          | Prompts for synthetic data generation            |
+| [Make-A-Video: Text-to-Video Generation without Text-Video Data](https://arxiv.org/abs/2209.14792) | ICLR             | 2023 | [Page](https://makeavideo.studio/)                           | Prompts for text-to-video generation             |
+| [Imagen Video: High Definition Video Generation with Diffusion Models](https://arxiv.org/abs/2210.02303) | arXiv            | 2022 | [Page](https://imagen.research.google/video/)                | Prompts for text-to-video generation             |
+| [FateZero: Fusing Attentions for Zero-shot Text-based Video Editing](https://arxiv.org/abs/2303.09535) | arXiv            | 2023 | [Github](https://github.com/ChenyangQiQi/FateZero)           | Prompts for text-to-video generation             |
+| [Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation](https://arxiv.org/abs/2212.11565) | ICCV             | 2023 | [Github](https://github.com/showlab/Tune-A-Video)            | Prompts for text-to-video generation             |
+| [DiffRF: Rendering-Guided 3D Radiance Field Diffusion](https://arxiv.org/abs/2212.01206) | CVPR             | 2023 | [Page](https://sirwyver.github.io/DiffRF/)                   | Prompts for text-to-3D generation                |
+| [DreamFusion: Text-to-3D using 2D Diffusion](https://arxiv.org/abs/2209.14988) | arXiv            | 2022 | [Page](https://dreamfusion3d.github.io/)                     | Prompts for text-to-3D generation                |
+| [Dream3D: Zero-Shot Text-to-3D Synthesis Using 3D Shape Prior and Text-to-Image Diffusion Models](https://arxiv.org/abs/2212.14704) | CVPR             | 2023 | [Page](https://bluestyle97.github.io/dream3d/)               | Prompts for text-to-3D generation                |
+| [MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model](https://arxiv.org/pdf/2208.15001.pdf) | arXiv            | 2022 | [Page](https://mingyuan-zhang.github.io/projects/MotionDiffuse.html) | Prompts for text-to-motion generation            |
+| [FLAME: Free-form Language-based Motion Synthesis & Editing](https://arxiv.org/abs/2209.00349) | AAAI             | 2023 | [Github](https://github.com/kakaobrain/flame)                | Prompts for text-to-motion generation            |
+| [MDM: Human Motion Diffusion Model]()                        | ICLR             | 2023 | [Github](https://github.com/GuyTevet/motion-diffusion-model) | Prompts for text-to-motion generation            |
+| [Zero-shot Generation of Coherent Storybook from Plain Text Story using Diffusion Models](https://arxiv.org/abs/2302.03900) | arXiv            | 2023 |                                                              | Prompts for complex tasks                        |
+|                                                              |                  |      |                                                              |                                                  |
+|                                                              |                  |      |                                                              |                                                  |
+|                                                              |                  |      |                                                              |                                                  |
+|                                                              |                  |      |                                                              |                                                  |
+|                                                              |                  |      |                                                              |                                                  |
 
 
 
