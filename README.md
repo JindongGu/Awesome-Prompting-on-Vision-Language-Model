@@ -27,7 +27,16 @@ If you find our paper and repo helpful to your research, please cite the followi
 }
 ```
 
+
+
 ## # :paperclips: Awesome Papers
+
+- [Prompting Model in Multimodal-to-Text Generation](#prompting-model-in-multimodal-to-text-generation-eg-on-flamingo)
+- [Prompting Model in Image-Text Matching](#prompting-model-in-image-text-matching-eg-on-clip)
+
+- [Prompting Model in Text-to-Image Generation](#prompting-model-in-text-to-image-generation-eg-on-stable-diffusion)
+
+
 
 ### Prompting Model in Multimodal-to-Text Generation (*e.g.* on Flamingo)
 
