@@ -187,9 +187,9 @@ Depending on the target of prompting, existing methods can be classified into th
 ## # :mailbox_with_mail: Contact 
 
 Please contact us (jindong.gu@outlook.com, chenshuo.cs@outlook.com) if 
-- you would like to add your paper in this repo,
-- you find any mistake in this repo, 
-- you have any suggestion for this repo. 
+- you would like to add your papers in this repo,
+- you find any mistakes in this repo, 
+- you have any suggestions for this repo. 
 
 
 
