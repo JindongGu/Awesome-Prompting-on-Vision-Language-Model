@@ -191,3 +191,13 @@ Please contact us (jindong.gu@outlook.com, chenshuo.cs@outlook.com) if
 - you find any mistake in this repo, 
 - you have any suggestion for this repo. 
 
+
+
+## :star2: Star History
+
+
+
+![Star History Chart](https://api.star-history.com/svg?repos=JindongGu/Awesome-Prompting-on-Vision-Language-Model&type=Date)
+
+
+
