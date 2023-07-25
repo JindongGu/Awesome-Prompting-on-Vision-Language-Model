@@ -9,7 +9,7 @@ Prompt engineering is a technique that involves augmenting a large pre-trained m
 
 <img src="./assets/3-models.png">
 
-<p align="center"> <i>Fig. 1 : Three main types of vision-language models focused on this work.</i> 		 </p>
+<p align="center"> <i>Fig. 1 : This work focuses on three main types of vision-language models.</i> 		 </p>
 
 ### Reference
 
