@@ -38,7 +38,7 @@ If you find our paper and repo helpful to your research, please cite the followi
 
 
 
-### Prompting Model in Multimodal-to-Text Generation (*e.g.* on Flamingo)
+### Prompting Models in Multimodal-to-Text Generation (*e.g.* on Flamingo)
 
 There are two main types of fusion module approaches based on the integration of visual and textual modalities: **encoder-decoder as a multi-modal fusion module** and **decoder-only as a multi-modal fusion module**. Prompting methods can be divided into **two main categories**  (Fig. 2) based on the readability of the templates: **hard prompt** and **soft prompt**. Hard prompt encompasses four subcategories: *task instruction, in-context learning,* *retrieval-based prompting, and chain-of-thought prompting*. Soft prompts are classified into two strategies: *prompt tuning* and *prefix token tuning*, based on whether they internally add new tokens to the model's architecture or simply append them to the input. this study primarily concentrates on prompt methods that avoid altering the base model.
 
@@ -199,14 +199,4 @@ Please contact us (jindong.gu@outlook.com, chenshuo.cs@outlook.com) if
 - you would like to add your papers in this repo,
 - you find any mistakes in this repo, 
 - you have any suggestions for this repo. 
-
-
-
-## # :star2: Star History
-
-
-
-![Star History Chart](https://api.star-history.com/svg?repos=JindongGu/Awesome-Prompting-on-Vision-Language-Model&type=Date)
-
-
 
