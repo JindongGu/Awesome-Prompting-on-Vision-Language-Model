@@ -110,6 +110,8 @@ Depending on the target of prompting, existing methods can be classified into th
 | [Align before Fuse: Vision and Language Representation Learning with Momentum Distillation](https://arxiv.org/abs/2107.07651) | NeurIPS | 2021 | [Github](https://github.com/salesforce/ALBEF/)               | Image-Text Matching Model                          |
 | [Unsupervised Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2204.03649) | arXiv   | 2022 | [Github](https://github.com/tonyhuang2022/UPL)               | Unspervised learnable prompts                      |
 | [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511) | NeurIPS | 2022 | [Github](https://github.com/azshue/TPT)                      | Learnable prompt                                   |
+| [Delving into the Openness of CLIP](https://arxiv.org/abs/2206.01986) | ACL       | 2023 | [Github](https://github.com/lancopku/clip-openness)                      | Hard text prompts for understanding           |
+| [Prompt Pre-Training with Over Twenty-Thousand Classes for Open-Vocabulary Visual Recognition](https://arxiv.org/abs/2304.04704) | arXiv       | 2023 | [Github](https://github.com/amazon-science/prompt-pretraining)   | Prompt Pre-Training  |
 
 ### Applications & Responsible AI
 
