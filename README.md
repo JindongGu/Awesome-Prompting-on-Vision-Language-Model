@@ -15,7 +15,7 @@ Prompt engineering is a technique that involves augmenting a large pre-trained m
 
 This repo lists relevant papers summarized in our survey: 
 
-**A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models.**  *[Jindong Gu](https://jindonggu.github.io/), [Zhen Han](https://sites.google.com/view/zhenhan/home?authuser=0), [Shuo Chen](https://chenxshuo.github.io/), [Ahmad Beirami](https://sites.google.com/view/beirami), [Bailan He](https://scholar.google.com/citations?user=n5zUQtAAAAAJ&hl=en), [Gengyuan Zhang](https://scholar.google.com/citations?user=LN2tYr0AAAAJ&hl=en), [Ruotong Liao](https://scholar.google.com/citations?user=XFQv_oYAAAAJ&hl=en), [Yao Qin](https://cseweb.ucsd.edu/~yaq007/), [Volker Tresp](https://www.dbs.ifi.lmu.de/~tresp/), [Philip Torr](https://torrvision.com/index.html)*  Preprint 2023. [[pdf]](https://arxiv.org/abs/2307.12980)
+**A Systematic Survey of Prompt Engineering on Vision-Language Foundation Models.**  *[Jindong Gu](https://jindonggu.github.io/), [Zhen Han](https://sites.google.com/view/zhenhan/home?authuser=0), [Shuo Chen](https://chenxshuo.github.io/), [Ahmad Beirami](https://sites.google.com/view/beirami), [Bailan He](https://scholar.google.com/citations?user=n5zUQtAAAAAJ&hl=en), [Gengyuan Zhang](https://scholar.google.com/citations?user=LN2tYr0AAAAJ&hl=en), [Ruotong Liao](https://scholar.google.com/citations?user=XFQv_oYAAAAJ&hl=en), [Yao Qin](https://cseweb.ucsd.edu/~yaq007/), [Volker Tresp](https://www.dbs.ifi.lmu.de/~tresp/), [Philip Torr](https://torrvision.com/index.html)*. Preprint 2023. [[pdf]](https://arxiv.org/abs/2307.12980)
 
 If you find our paper and repo helpful to your research, please cite the following paper:
 ```latex
