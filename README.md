@@ -113,6 +113,7 @@ Depending on the target of prompting, existing methods can be classified into th
 | [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511) | NeurIPS | 2022 | [Github](https://github.com/azshue/TPT)                      | Learnable prompt                                   |
 | [Prompt Pre-Training with Over Twenty-Thousand Classes for Open-Vocabulary Visual Recognition](https://arxiv.org/abs/2304.04704) | arXiv       | 2023 | [Github](https://github.com/amazon-science/prompt-pretraining)   | Prompt Pre-Training  |
 | [Consistency-guided Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2306.01195) | ICLR    | 2024 | --- | Decoupled unified prompting                        |
+| [Improving Adaptability and Generalizability of Efficient Transfer Learning for Vision-Language Models](https://arxiv.org/abs/2311.15569) | arXiv       | 2023 | ---   | Learnable prompt  |
 
 ### Applications & Responsible AI
 
