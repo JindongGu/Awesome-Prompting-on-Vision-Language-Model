@@ -73,7 +73,11 @@ There are two main types of fusion module approaches based on the integration of
 | [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/abs/2302.14045) | arXiv       | 2023 | [Github](https://github.com/microsoft/unilm)                 | Textual instruction prompts                          |
 | [Benchmarking Robustness of Adaptation Methods on Pre-trained Vision-Language Models](https://arxiv.org/abs/2306.02080) | arXiv       | 2023 | [Page](https://adarobustness.github.io/)                     | Robustness of prompt tuning on VLMs                  |
 | [Towards Robust Prompts on Vision-Language Models](https://arxiv.org/abs/2304.08479) | arXiv       | 2023 | ---                                                          | Robustness of prompt tuning on VLMs                  |
-
+| [InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning](https://arxiv.org/pdf/2305.06500.pdf) | arXiv | 2023 | [Github](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip) | Prompt tuning |
+| [Visual Instruction Tuning](https://arxiv.org/pdf/2304.08485.pdf) | NeurIPS | 2023 | [Github](https://github.com/haotian-liu/LLaVA) | |
+| [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/pdf/2308.12966.pdf) |  | 2023 | [Github](https://github.com/QwenLM/Qwen-VL) | Prompt tuning |
+| [Shikra: Unleashing Multimodal LLM’s Referential Dialogue Magic](https://arxiv.org/pdf/2306.15195.pdf) | arXiv  | 2023 | [Github](https://github.com/shikras/shikra) | |
+| [MINIGPT-4: ENHANCING VISION-LANGUAGE UNDERSTANDING WITH ADVANCED LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2304.10592.pdf) | arXiv | 2023 | [Github](https://minigpt-4.github.io/) | Prompt tuning |
 
 
 ## Prompting Model in Image-Text Matching (*e.g.* on CLIP)
