@@ -118,6 +118,9 @@ Depending on the target of prompting, existing methods can be classified into th
 | [Prompt Pre-Training with Over Twenty-Thousand Classes for Open-Vocabulary Visual Recognition](https://arxiv.org/abs/2304.04704) | arXiv       | 2023 | [Github](https://github.com/amazon-science/prompt-pretraining)   | Prompt Pre-Training  |
 | [Consistency-guided Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2306.01195) | ICLR    | 2024 | --- | Decoupled unified prompting                        |
 | [Improving Adaptability and Generalizability of Efficient Transfer Learning for Vision-Language Models](https://arxiv.org/abs/2311.15569) | arXiv       | 2023 | ---   | Learnable prompt  |
+| [Efficient Test-Time Prompt Tuning for Vision-Language Models](https://arxiv.org/abs/2408.05775) | arXiv | 2024 | --- | Efficient test-time prompt tuning |
+| [Progressive Visual Prompt Learning with Contrastive Feature Re-formation](https://arxiv.org/abs/2304.08386) | IJCV | 2024 | [GitHub](https://github.com/MCG-NJU/ProVP) | Visual prompt tuning |
+| [AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation](https://arxiv.org/abs/2407.04603) | NeurIPS | 2024 | [GitHub](https://github.com/MCG-NJU/AWT) | LLM prompt generation; Optimal transport |
 
 ### Applications & Responsible AI
 
