@@ -198,7 +198,7 @@ Depending on the target of prompting, existing methods can be classified into th
 | [Diffusion Models for Adversarial Purification](https://arxiv.org/abs/2205.07460) | ICML             | 2022 | [Github](https://github.com/NVlabs/DiffPure)                 | Adversarial robustness of text-to-image models               |
 | [Rickrolling the Artist: Injecting Backdoors into Text Encoders for Text-to-Image Synthesis](https://arxiv.org/abs/2211.02408) | ICCV            | 2023 | ---                                                          | Backdoor attack on text-to-image models                      |
 | [Text-to-Image Diffusion Models can be Easily Backdoored through Multimodal Data Poisoning](https://arxiv.org/abs/2305.04175) | ACM MM            | 2023 | ---                                                          | Backdoor attack on text-to-image models                      |
-| [Personalization as a Shortcut for Few-Shot Backdoor Attack against Text-to-Image Diffusion Models](https://arxiv.org/abs/2305.10701) | arXiv            | 2023 | ---                                                          | Backdoor attack on text-to-image models                      |
+| [Personalization as a Shortcut for Few-Shot Backdoor Attack against Text-to-Image Diffusion Models](https://arxiv.org/abs/2305.10701) | AAAI            | 2024 | ---                                                          | Backdoor attack on text-to-image models                      |
 
 
 ## # :mailbox_with_mail: Contact 
